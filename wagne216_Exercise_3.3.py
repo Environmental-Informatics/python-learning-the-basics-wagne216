@@ -14,12 +14,12 @@ def do_twice(f): #create function that repeats an input function
     f()
     f()
     
-def do_thrice(f)
+def do_thrice(f):
     f()
     f()
     f()
     
-def print_mult(a,b,c,d) #print up to 4 arguments in succession
+def print_mult(a,b,c,d): #print up to 4 arguments in succession
     print(a)
     print(b)
     print(c)
@@ -107,4 +107,4 @@ def create_grid(n): # n specifies no. of rows and col's (square)
     print(a+c*(n-1))
 
 # execute: 
-    create_grid(4)
+create_grid(4)
